@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Records which optimisation flags this gcc supports and which ones -O3 turns on.
-set -euo pipefail
+
+
+set -euo pipefail # Stops script at first error
 
 OUT=results/inventory
 mkdir -p "$OUT"
