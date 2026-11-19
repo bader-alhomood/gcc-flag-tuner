@@ -1,0 +1,16 @@
+# Build output
+build/
+*.o
+*.out
+*.exe
+
+# Scratch binaries the harness creates while testing flags
+work/
+
+# Python
+__pycache__/
+.venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
